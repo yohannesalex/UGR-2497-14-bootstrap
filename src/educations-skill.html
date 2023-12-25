@@ -1,77 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>education and skill</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Education and Skill</title>
 </head>
-<body>
-    <header>
-        <img src="images/logo.png" alt="logo">
-        <nav>
-            <ul>
-                <li><a href="./home.html">Home</a></li>
-                <li><a href="./aboutme.html">About Me</a></li>
-                <li><a href="./experience.html">Experience</a></li>
-                <li><a href="./educations-skill.html">Education and skill</a></li>
-                <li><a href="./contactme.html">Contact Me</a></li>
-            </ul> 
-        </nav>
-    </header>
-    <main>
-        
-        <section>
-            <h1>Education and Skills</h1>
-            <h2>Education</h2>
-                    <ul>
-                        <li><a href="https://portal.aait.edu.et">Addis Ababa Institute Of Technology</a>
-                            <ul>
-                                <li><img src="images/AAitlogo.jpg"  alt="AAIT img"></li>
-                            </ul></li>
-                        
-                            <li><a href="https://www.coursera.org/professional-certificates/meta-front-end-developer">Coursera Meta front end developer</a>
-                                <ul>
-                                    <li><img src="images/education1.png"   alt="coursera certficate"></li>
-                                </ul></li>
-                        
-                            <li> <a href="https://www.coursera.org/professional-certificates/meta-back-end-developer">Coursera Meta back end developer</a>
-                                <ul>
-                                    <li><img src="images/backend.jpg" alt="coursera certficate"></li>
-                                </ul></li>
-                        
-                    </ul>
 
-        </section>
-        <section>
-            <h2>Skill</h2>
-                    <ul>
-                        <li>Front-end development</li>
-                        <li>Back-end development</li>
-                        <li>Python development</li>
-                        <li>React developer</li>
-                        <li>Django developer</li>
-                        <li>Mobile app developer</li>
-                    </ul>
-        </section>
-        <section>
-            <h2>My Works</h2>
-            
-            
-            <img src="images/personal-portfolio-img/images/work-1.png" alt="work_1">
-            <h3>Social Meadia App</h3>
-            <p>The app connects you to the talented people around the world. download it from the play store.</p>
-            <a href="#"><i class="fa-solid fa-link"></i></a>
-            <img src="images/personal-portfolio-img/images/work-2.png" alt="work_2">
-                    
-            <h3>Music App</h3>
-            <p>The app connects you to the talented people around the world. download it from the play store.</p>
-            <a href="#"><i class="fa-solid fa-link"></i></a>
-            <img src="images/personal-portfolio-img/images/work-3.png" alt="work_3">
-            
-            <h3>Online Shopping Website</h3>
-            <p>The Website connects you to the talented people around the world. download it from the play store.</p>
-            <a href="#"><i class="fa-solid fa-link"></i></a>
-        </section>
+<body style="background-color: black; " class="font-serif bg-black">
+
+    <nav>
+
+        <div class=" d-block d-md-none d-lg-none">
+            <div class="d-flex justify-content-between ">
+                <img src="images/lastlogo.jpg" class="w-25 h-auto " alt="Logo">
+                <button class="btn text-white focus-outline-none float-right">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="28" width="20" viewBox="0 0 448 512">
+                        <path fill="#e8eaee"
+                            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="d-none d-md-flex d-lg-none items-center justify-content-between pr-1">
+            <div class="ml-0">
+                <img src="images/lastlogo.jpg" class="w-50 h-auto" alt="Logo">
+            </div>
+            <nav class="navbar navbar-expand-md navbar-light">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./aboutme.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./experience.html">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./educations-skill.html">Education and Skill</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./contactme.html">Contact Me</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="d-none d-lg-flex items-center justify-content-between pl-2 pr-5 mr-5 d-md-none">
+            <div class="ml-24">
+                <img src="images/lastlogo.jpg" class="w-50 h-auto " alt="Logo">
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <ul class="navbar-nav mr-8">
+                    <li class="nav-item">
+                        <a class="nav-link text-white text-lg" href="./home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white text-lg" href="./aboutme.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white text-lg" href="./experience.html">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white text-lg" href="./educations-skill.html">Education and Skill</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white text-lg" href="./contactme.html">Contact Me</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </nav>
+    <main class="text-center container-lg mx-auto mx-lg-5 px-lg-5">
+        <h1 class="text-success text-3xl text-center mt-0 py-5">Education and Skills</h1>
+        <div class="d-flex flex-column flex-lg-row flex-md-row mx-3">
+            <div class="d-flex flex-column items-center col-lg-4 col-md-4 h-1/3">
+                <section>
+                    <div class="text-white">
+                        <h2 class="text-white mt-5 mb-5 text-2xl">Education</h2>
+                        <ul class="d-flex flex-column items-center list-unstyled">
+                            <li><a href="https://portal.aait.edu.et">Addis Ababa Institute Of Technology</a></li>
+                            <li class="text-white">
+
+
+                                <img class="img-fluid border rounded" src="images/addis.jpg" alt="AAIT img">
+                            </li>
+                            <li class="all__eduall__ul__li">
+                                <a href="https://www.coursera.org/professional-certificates/meta-front-end-developer">Coursera
+                                    Meta front end developer</a>
+
+                                <img class="img-fluid border rounded" src="images/education1.png"
+                                    alt="coursera certificate">
+
+                            </li>
+                            <li class="all__eduall__ul__li">
+                                <a href="https://www.coursera.org/professional-certificates/meta-back-end-developer">Coursera
+                                    Meta back end developer</a>
+
+                                <img class="img-fluid max-h-64 border rounded" src="images/backend.jpg"
+                                    alt="coursera certificate">
+
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <div class="d-flex flex-column items-center col-md-4 col-lg-4 h-1/3 text-white mx-auto">
+                <section class="d-flex flex-column items-center text-white mx-auto">
+                    <div class="mx-auto">
+                        <h2 class="mb-5 mt-0 5text-2xl mt-5">Skill</h2>
+                        <ul class="d-flex flex-column text-left gap-6 text-xl">
+                            <li class="text-xl mb-3">Front-end development</li>
+                            <li class="text-xl mb-3">Back-end development</li>
+                            <li class="text-xl mb-3">Python development</li>
+                            <li class="text-xl mb-3">React developer</li>
+                            <li class="text-xl mb-3">Django developer</li>
+                            <li class="text-xl mb-3">Mobile app developer</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <div class="mx-auto col-md-4 h-1/3 h-auto text-white items-center">
+                <h2 class="mb-4 text-2xl mt-5">My Works</h2>
+                <section class="items-center text-white">
+                    <div class="d-md-flex flex-md-column items-center justify-md-center text-white">
+                        <div class="w-4/5 mx-auto my-3">
+                            <img class="img-fluid border rounded" src="images/work-1.png" alt="work_1">
+                            <div class="text-white text-center">
+                                <h6 class="text-danger font-weight-bold">Social Media App</h6>
+                                <p>The app connects you to the talented people around the world.</p>
+                            </div>
+                        </div>
+                        <div class=" my-3 mx-auto w-4/5 items-center">
+                            <img class="img-fluid border rounded" src="images/work-2.png" alt="work_2">
+                            <div class=" translate-middle text-white">
+                                <h6 class="text-danger font-weight-bold">Music App</h6>
+                                <p>The app connects you to the talented people around the world.</p>
+                            </div>
+                        </div>
+                        <div class=" mx-auto">
+                            <img class="img-fluid border rounded" src="images/work-3.png" alt="work_3">
+                            <div class="  text-white">
+                                <h6 class="text-danger font-weight-bold text-sm">Online Shopping Website</h6>
+                                <p>The Website connects you to the talented people around the world.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
     </main>
+
+    <footer class="bg-dark d-flex items-center align-items-center">
+        <img src="images/lastlogo.jpg" class=" h-auto " alt="Logo"  height="30">
+        <p class="text-white ml-3 text-xl">Yohannes</p>
+    </footer>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
+
 </html>
